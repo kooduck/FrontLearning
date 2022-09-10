@@ -6,7 +6,92 @@
     width: 1200px;
     margin: auto;
 } 
+body {
+    background-color: #f3f5f7;
+}
+li {
+    list-style: none ;
+}
+a {
+    text-decoration: none;
+}
 .header {
     height: 42px;
-    background-color: pink;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+.logo{
+    float: left;
+    width:198px;
+    height: 42px;
+    /* background-color: purple; */
+}
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+.nav ul li {
+    float: left;
+    margin: 0px 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+/* search模块 */
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    /* background-color: skyblue; */
+    margin-left: 90px;
+}
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-color: blue;
+    /* 按钮button默认有个边框 */
+    border: none;
+    background: url(images/btn.png);
+}
+/* 用户模块 */
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+/* banner区域 */
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+.banner .w {
+    height: 421px;
+    background: url(images/banner2_20190819_210028.png) no-repeat top center;
+}
+.subnav {
+    width: 190px;
+    height: 421px;
+    background: rgba(0, 0, 0, 0.3)
 }
